@@ -12,6 +12,7 @@ class ThemeProvider extends ChangeNotifier {
       color3 = Colors.amberAccent}) {
     this.color1 = color1;
     this.color2 = color2;
+
     this.color3 = color3;
     notifyListeners();
   }

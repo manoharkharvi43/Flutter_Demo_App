@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo_app/data/providers/theme_provider.dart';
-import 'package:flutter_demo_app/presentation/pages/products/MainProducts.dart';
-import 'package:flutter_demo_app/presentation/pages/products/Products.dart';
+import 'package:flutter_demo_app/presentation/pages/stream_demo/Counters.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: AllProducts(),
+        body: Counters(),
         appBar: AppBar(
           title: Text("All Products"),
         ),
